@@ -1,0 +1,80 @@
+.sign_up{
+    width: 960px;
+    height: 100vh;
+    margin: auto;
+    background-color:#F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body h1 h2 h3 h4 h5 h6 p{
+    font-family: 'Rubik', sans-serif;
+}
+.sign_main{
+    display: flex;
+    background-color: #ffff;
+    width: 750px;
+    padding: 80px 50px;
+    
+}
+.button_btn{
+    display: block;
+}
+.sign_left .from_cintrol{
+    display: block;}
+.sign_left{
+    flex-basis: 50%;
+}
+.sign_right{
+    flex-basis: 50%;
+}
+.sign_left h2{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.from_control {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 0px 10px 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+
+}
+.sign_right{
+    text-align: right;
+    margin-left: 20px;
+}
+.sign_left label{
+    font-size: 18px;
+}
+.button_btn{
+    background-color:rgb(44, 44, 211);
+    color: white;
+    margin-top: 32px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+.sign_right a{
+    display: block;
+    margin-top:45px;
+    font-size: 12px;
+}
+.from_main{
+    position: relative;
+}
+
+    .icon_main {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+    }
+    .from_control:focus{
+        color: green;
+    }
+    .button_btn:hover{
+        background-color: tomato;
+        transition: .5s;
+        cursor: pointer;
+    }
+  
